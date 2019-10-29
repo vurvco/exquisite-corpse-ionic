@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;
+}

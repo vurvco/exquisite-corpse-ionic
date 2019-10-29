@@ -1,0 +1,24 @@
+.slide {
+  height: 33vh;
+  width: 100vw;
+  flex-shrink: 0;
+  overflow: hidden;
+	scroll-snap-align: start;
+}
+
+.slide__img-container {
+  height: 100%;
+  width: 33%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.slide__img-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,5 +1,7 @@
 {
   "name": "corpse-ionic",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
